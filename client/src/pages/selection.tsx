@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { shuffle } from "lodash";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { Box, Grid, Typography } from "@mui/material";
 import { useRouter } from "next/router";
 import classNames from "classnames";
